@@ -9,13 +9,24 @@
 /* Begin PBXBuildFile section */
 		4709415A27A2AD0400FFA3F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4709415927A2AD0400FFA3F2 /* AppDelegate.swift */; };
 		4709415C27A2AD0400FFA3F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4709415B27A2AD0400FFA3F2 /* SceneDelegate.swift */; };
-		4709415E27A2AD0400FFA3F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4709415D27A2AD0400FFA3F2 /* ViewController.swift */; };
 		4709416127A2AD0400FFA3F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4709415F27A2AD0400FFA3F2 /* Main.storyboard */; };
-		4709416427A2AD0400FFA3F2 /* Challenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4709416227A2AD0400FFA3F2 /* Challenge.xcdatamodeld */; };
 		4709416627A2AD0500FFA3F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4709416527A2AD0500FFA3F2 /* Assets.xcassets */; };
 		4709416927A2AD0500FFA3F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4709416727A2AD0500FFA3F2 /* LaunchScreen.storyboard */; };
 		4709417427A2AD0500FFA3F2 /* ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4709417327A2AD0500FFA3F2 /* ChallengeTests.swift */; };
 		4709417F27A2AD0500FFA3F2 /* ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4709417E27A2AD0500FFA3F2 /* ChallengeUITests.swift */; };
+		4709419527A2AE1700FFA3F2 /* ProductModel .swift in Sources */ = {isa = PBXBuildFile; fileRef = 4709419427A2AE1700FFA3F2 /* ProductModel .swift */; };
+		4709419627A2AE1700FFA3F2 /* ProductModel .swift in Sources */ = {isa = PBXBuildFile; fileRef = 4709419427A2AE1700FFA3F2 /* ProductModel .swift */; };
+		4709419727A2AE1700FFA3F2 /* ProductModel .swift in Sources */ = {isa = PBXBuildFile; fileRef = 4709419427A2AE1700FFA3F2 /* ProductModel .swift */; };
+		470941A827A2B0A500FFA3F2 /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470941A727A2B0A500FFA3F2 /* URLs.swift */; };
+		470941B227A2B11B00FFA3F2 /* ProductService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470941B127A2B11B00FFA3F2 /* ProductService.swift */; };
+		470941B727A2BC4500FFA3F2 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470941B627A2BC4500FFA3F2 /* ProductViewController.swift */; };
+		470941BD27A2C73A00FFA3F2 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470941BC27A2C73A00FFA3F2 /* ProductCollectionViewCell.swift */; };
+		470941CC27A3047900FFA3F2 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470941CB27A3047900FFA3F2 /* ImageDownloader.swift */; };
+		470941EF27A32A7700FFA3F2 /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470941EE27A32A7700FFA3F2 /* PinterestLayout.swift */; };
+		470941FB27A33D0400FFA3F2 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470941FA27A33D0300FFA3F2 /* ProductDetailViewController.swift */; };
+		4735092727A40F83005C8DEE /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4735092627A40F83005C8DEE /* NetworkMonitor.swift */; };
+		4767244227A7E92C007AB3B1 /* Challenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4767244027A7E92C007AB3B1 /* Challenge.xcdatamodeld */; };
+		47E63FCD27A6C63B0005D33C /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E63FCC27A6C63B0005D33C /* FileManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +50,7 @@
 		4709415627A2AD0400FFA3F2 /* Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Challenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4709415927A2AD0400FFA3F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4709415B27A2AD0400FFA3F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4709415D27A2AD0400FFA3F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4709416027A2AD0400FFA3F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4709416327A2AD0400FFA3F2 /* Challenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Challenge.xcdatamodel; sourceTree = "<group>"; };
 		4709416527A2AD0500FFA3F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4709416827A2AD0500FFA3F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4709416A27A2AD0500FFA3F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +60,17 @@
 		4709417A27A2AD0500FFA3F2 /* ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4709417E27A2AD0500FFA3F2 /* ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeUITests.swift; sourceTree = "<group>"; };
 		4709418027A2AD0500FFA3F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4709419427A2AE1700FFA3F2 /* ProductModel .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProductModel .swift"; sourceTree = "<group>"; };
+		470941A727A2B0A500FFA3F2 /* URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
+		470941B127A2B11B00FFA3F2 /* ProductService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductService.swift; sourceTree = "<group>"; };
+		470941B627A2BC4500FFA3F2 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		470941BC27A2C73A00FFA3F2 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		470941CB27A3047900FFA3F2 /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		470941EE27A32A7700FFA3F2 /* PinterestLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
+		470941FA27A33D0300FFA3F2 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		4735092627A40F83005C8DEE /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		4767244127A7E92C007AB3B1 /* Challenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Challenge.xcdatamodel; sourceTree = "<group>"; };
+		47E63FCC27A6C63B0005D33C /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +121,17 @@
 		4709415827A2AD0400FFA3F2 /* Challenge */ = {
 			isa = PBXGroup;
 			children = (
-				4709415927A2AD0400FFA3F2 /* AppDelegate.swift */,
-				4709415B27A2AD0400FFA3F2 /* SceneDelegate.swift */,
-				4709415D27A2AD0400FFA3F2 /* ViewController.swift */,
+				470941ED27A32A6200FFA3F2 /* Layouts */,
+				470941CA27A3045600FFA3F2 /* Utilities */,
+				470941AF27A2B0ED00FFA3F2 /* Model */,
+				470941A627A2B05200FFA3F2 /* Constants */,
+				4709419E27A2B00300FFA3F2 /* Controllers  */,
+				4709419327A2AD8800FFA3F2 /* POJOs */,
 				4709415F27A2AD0400FFA3F2 /* Main.storyboard */,
-				4709416527A2AD0500FFA3F2 /* Assets.xcassets */,
 				4709416727A2AD0500FFA3F2 /* LaunchScreen.storyboard */,
+				4767244027A7E92C007AB3B1 /* Challenge.xcdatamodeld */,
 				4709416A27A2AD0500FFA3F2 /* Info.plist */,
-				4709416227A2AD0400FFA3F2 /* Challenge.xcdatamodeld */,
+				4709418F27A2AD3600FFA3F2 /* SupportingFiles */,
 			);
 			path = Challenge;
 			sourceTree = "<group>";
@@ -129,6 +152,100 @@
 				4709418027A2AD0500FFA3F2 /* Info.plist */,
 			);
 			path = ChallengeUITests;
+			sourceTree = "<group>";
+		};
+		4709418F27A2AD3600FFA3F2 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				4709415927A2AD0400FFA3F2 /* AppDelegate.swift */,
+				4709415B27A2AD0400FFA3F2 /* SceneDelegate.swift */,
+				4709416527A2AD0500FFA3F2 /* Assets.xcassets */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		4709419327A2AD8800FFA3F2 /* POJOs */ = {
+			isa = PBXGroup;
+			children = (
+				4709419427A2AE1700FFA3F2 /* ProductModel .swift */,
+			);
+			path = POJOs;
+			sourceTree = "<group>";
+		};
+		4709419E27A2B00300FFA3F2 /* Controllers  */ = {
+			isa = PBXGroup;
+			children = (
+				470941BB27A2C6FD00FFA3F2 /* ProductsCollectionViewController */,
+				470941F927A33CD100FFA3F2 /* ProductDetailView */,
+			);
+			path = "Controllers ";
+			sourceTree = "<group>";
+		};
+		470941A627A2B05200FFA3F2 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				470941A727A2B0A500FFA3F2 /* URLs.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		470941AF27A2B0ED00FFA3F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4735092B27A41163005C8DEE /* Database */,
+				470941B027A2B0FA00FFA3F2 /* Network */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		470941B027A2B0FA00FFA3F2 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				470941B127A2B11B00FFA3F2 /* ProductService.swift */,
+				4735092627A40F83005C8DEE /* NetworkMonitor.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		470941BB27A2C6FD00FFA3F2 /* ProductsCollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				470941B627A2BC4500FFA3F2 /* ProductViewController.swift */,
+				470941BC27A2C73A00FFA3F2 /* ProductCollectionViewCell.swift */,
+			);
+			path = ProductsCollectionViewController;
+			sourceTree = "<group>";
+		};
+		470941CA27A3045600FFA3F2 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				470941CB27A3047900FFA3F2 /* ImageDownloader.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		470941ED27A32A6200FFA3F2 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				470941EE27A32A7700FFA3F2 /* PinterestLayout.swift */,
+			);
+			path = Layouts;
+			sourceTree = "<group>";
+		};
+		470941F927A33CD100FFA3F2 /* ProductDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				470941FA27A33D0300FFA3F2 /* ProductDetailViewController.swift */,
+			);
+			path = ProductDetailView;
+			sourceTree = "<group>";
+		};
+		4735092B27A41163005C8DEE /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				47E63FCC27A6C63B0005D33C /* FileManager.swift */,
+			);
+			path = Database;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,10 +378,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4709415E27A2AD0400FFA3F2 /* ViewController.swift in Sources */,
-				4709416427A2AD0400FFA3F2 /* Challenge.xcdatamodeld in Sources */,
+				470941A827A2B0A500FFA3F2 /* URLs.swift in Sources */,
+				4735092727A40F83005C8DEE /* NetworkMonitor.swift in Sources */,
+				4709419527A2AE1700FFA3F2 /* ProductModel .swift in Sources */,
+				470941BD27A2C73A00FFA3F2 /* ProductCollectionViewCell.swift in Sources */,
+				470941EF27A32A7700FFA3F2 /* PinterestLayout.swift in Sources */,
+				470941B727A2BC4500FFA3F2 /* ProductViewController.swift in Sources */,
 				4709415A27A2AD0400FFA3F2 /* AppDelegate.swift in Sources */,
+				470941FB27A33D0400FFA3F2 /* ProductDetailViewController.swift in Sources */,
+				47E63FCD27A6C63B0005D33C /* FileManager.swift in Sources */,
 				4709415C27A2AD0400FFA3F2 /* SceneDelegate.swift in Sources */,
+				470941CC27A3047900FFA3F2 /* ImageDownloader.swift in Sources */,
+				4767244227A7E92C007AB3B1 /* Challenge.xcdatamodeld in Sources */,
+				470941B227A2B11B00FFA3F2 /* ProductService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +398,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4709419627A2AE1700FFA3F2 /* ProductModel .swift in Sources */,
 				4709417427A2AD0500FFA3F2 /* ChallengeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +407,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4709419727A2AE1700FFA3F2 /* ProductModel .swift in Sources */,
 				4709417F27A2AD0500FFA3F2 /* ChallengeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -450,7 +578,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Thirdwayv.Challenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -469,7 +597,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Thirdwayv.Challenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -599,12 +727,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		4709416227A2AD0400FFA3F2 /* Challenge.xcdatamodeld */ = {
+		4767244027A7E92C007AB3B1 /* Challenge.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				4709416327A2AD0400FFA3F2 /* Challenge.xcdatamodel */,
+				4767244127A7E92C007AB3B1 /* Challenge.xcdatamodel */,
 			);
-			currentVersion = 4709416327A2AD0400FFA3F2 /* Challenge.xcdatamodel */;
+			currentVersion = 4767244127A7E92C007AB3B1 /* Challenge.xcdatamodel */;
 			path = Challenge.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
