@@ -85,7 +85,7 @@ class ProductViewController: UIViewController, UICollectionViewDelegate, UIColle
     }
    
 //    //MARK: pinterest layout
-    func collectionView(_ collectionView: UICollectionView, heightForPhotoAtIndexPath indexPath: IndexPath) -> CGFloat {
+    func collectionView(_ collectionView: UICollectionView, heightForCellAtIndexPath indexPath: IndexPath) -> CGFloat {
         if let imageSize = (products?[indexPath.row].image?.height){
             return CGFloat(imageSize)
 

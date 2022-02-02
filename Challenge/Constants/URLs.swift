@@ -8,6 +8,7 @@
 import Foundation
 
 struct URLs{
-  
+    
+    /// A static variable that holds the API URL
     public static var getProductURL = "https://api.jsonserve.com/mIqgTj"
 }
