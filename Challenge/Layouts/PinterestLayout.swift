@@ -40,13 +40,12 @@ class PinterestLayout: UICollectionViewLayout {
   }
   
   override func prepare() {
-   
-    guard
-      cache.isEmpty == true,
-      let collectionView = collectionView
-      else {
-        return
-    }
+    
+    cache.removeAll()
+        guard cache.isEmpty == true || cache.isEmpty == false, let collectionView = collectionView else {
+                    return
+                }
+            contentHeight = 0
     
     let columnWidth = contentWidth / CGFloat(numberOfColumns)
     var xOffset: [CGFloat] = []

@@ -8,8 +8,7 @@
 import UIKit
 
 
-class ProductViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource , UICollectionViewDataSourcePrefetching ,UICollectionViewDelegateFlowLayout
-                             //, PinterestLayoutDelegate
+class ProductViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource , UICollectionViewDataSourcePrefetching , PinterestLayoutDelegate
                          
 {
    
@@ -28,9 +27,9 @@ class ProductViewController: UIViewController, UICollectionViewDelegate, UIColle
             productsCollectionView.dataSource = self
             productsCollectionView.prefetchDataSource = self
             productsCollectionView.isPrefetchingEnabled = true
-//            if let layout = productsCollectionView?.collectionViewLayout as? PinterestLayout {
-//              layout.delegate = self
-//            }
+            if let layout = productsCollectionView?.collectionViewLayout as? PinterestLayout {
+              layout.delegate = self
+            }
                     }
     }
     
@@ -86,33 +85,16 @@ class ProductViewController: UIViewController, UICollectionViewDelegate, UIColle
     }
    
 //    //MARK: pinterest layout
-//    func collectionView(_ collectionView: UICollectionView, heightForPhotoAtIndexPath indexPath: IndexPath) -> CGFloat {
-//        if let imageSize = (products?[indexPath.row].image?.height){
-//            return CGFloat(imageSize)
-//
-//        }
-//        return productsCollectionView.frame.size.height/2
-//
-//    }
+    func collectionView(_ collectionView: UICollectionView, heightForPhotoAtIndexPath indexPath: IndexPath) -> CGFloat {
+        if let imageSize = (products?[indexPath.row].image?.height){
+            return CGFloat(imageSize)
 
-    //MARK: collection view layout delegate
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
-        // vertical spacing between items
-        return 5
-     }
-     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
-        //horizental spacing between items
-        return 5
-     }
-      func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize
-      {
-       
-         let width = (collectionView.frame.width - 5 )/2
-        return CGSize(width: width, height: width*1.5)
-     }
-     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets{
-            return UIEdgeInsets.init(top: 0.0, left: 0.0, bottom: 0.0, right: 0.0)
         }
+        return productsCollectionView.frame.size.height/2
+
+    }
+
+   
    //MARK: collection view prefetch delegate
     func collectionView(_ collectionView: UICollectionView, prefetchItemsAt indexPaths: [IndexPath]) {
         for indexPath in indexPaths {
